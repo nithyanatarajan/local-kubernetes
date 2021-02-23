@@ -1,0 +1,3 @@
+source_env ../.envrc
+export CONNECT_ON_CREATE=true
+export DISCONNECT_ON_DELETE=true

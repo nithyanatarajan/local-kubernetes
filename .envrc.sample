@@ -1,2 +1,3 @@
 export REG_NAME='registry.localhost'
 export REG_PORT=5000
+export CLUSTER_NAME=example
