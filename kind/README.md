@@ -15,6 +15,15 @@
 ./create.sh
 ```
 
+### Test Setup
+
+```bash
+export KUBECONFIG=$HOME/.kube/configs/${CLUSTER_NAME}.conf
+kubectl cluster-info
+kubectl apply -f ../example
+kubectl get pod
+```
+
 ### Delete cluster
 
 > By default registry is configured to disconnect from kind network on deletion of a cluster
