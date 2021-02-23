@@ -1,5 +1,7 @@
 ## Kind cluster with local registry
 
+> Modify CLUSTER_NAME in .envrc if needed
+
 ### Setup
 
 1. Copy `.envrc.sample` to `.envrc`

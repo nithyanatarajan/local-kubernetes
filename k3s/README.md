@@ -1,8 +1,8 @@
-## Kind cluster with local registry
+## K3s cluster with local registry
 
-> Modify CLUSTER_NAME in .envrc
+> Modify CLUSTER_NAME in .envrc if needed
 
-### Setup
+### Create cluster
 
 ```bash
 ./create.sh

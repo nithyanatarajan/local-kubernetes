@@ -23,3 +23,8 @@ docker push localhost:"${REG_PORT}"/nginx:latest
 ```bash
 curl -s localhost:"${REG_PORT}"/v2/_catalog | jq
 ```
+
+## Cluster setup
+
+1. [Kind](kind/README.md)
+2. [K3s](k3s/README.md)
